@@ -65,17 +65,17 @@ export const HeroPulse = () => {
             whileTap={{
               scale: 0.985,
             }}
-            className="group relative flex w-fit items-center rounded-full bg-gray-950/10 px-8 py-4 font-bold text-gray-50 transition-colors hover:bg-gray-950/50"
+            className="group relative flex w-fit items-center rounded-full bg-gray-950/10 px-8 py-4 font-bold text-gray-50 transition-colors hover:bg-gray-950/50 text-sm"
           >
             <Link
               href="https://calendly.com/n4tures/chitchatting-1-hour-clone"
               target="_blank"
             >
-              PLAY WITH ME
+              {"Book a Time"}
             </Link>
           </motion.button>
           <Dialog>
-            <DialogTrigger className="text-sm">What Games?</DialogTrigger>
+            <DialogTrigger className="text-sm">My Fav Games</DialogTrigger>
             <DialogContent>
               <DialogHeader>
                 <DialogTitle>My Fav Games</DialogTitle>
