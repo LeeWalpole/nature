@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import "./globals.css";
+import "@/styles/globals.css";
 
 //👇 Import Open Sans font
 import { Wix_Madefor_Text } from "next/font/google";
@@ -22,8 +22,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={wixMadeforText.className}>{children}</body>
+    <html lang="en" suppressHydrationWarning className="dark">
+      <body
+        className={`${wixMadeforText.className} antialiased dark bg-background text-foreground`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
