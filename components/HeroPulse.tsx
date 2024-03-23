@@ -31,13 +31,13 @@ export const HeroPulse = () => {
       style={{
         backgroundImage,
       }}
-      className="relative flex flex-col lg:flex-row-reverse items-center justify-center gap-8 xl:gap-8 min-h-screen place-content-center overflow-hidden bg-gray-950  text-gray-200"
+      className="relative flex flex-col lg:flex-row-reverse items-center justify-center gap-8 xl:gap-8 min-h-screen place-content-center overflow-hidden bg-gray-950  text-gray-200 py-16"
     >
-      <header className="flex flex-col relative z-10 max-w-3xl gap-8 text-center lg:text-left py-16 lg:py-0 px-8  justify-center items-center lg:justify-start lg:items-start lg:w-1/2">
+      <header className="flex flex-col relative z-10 max-w-3xl gap-8 text-center lg:text-left lg:py-0 px-8  justify-center items-center lg:justify-start lg:items-start lg:w-1/2">
         <span className="rounded-full bg-gray-600/50 px-4 py-2 text-xs w-fit font-semibold tracking-wider uppercase">
           {"Let’s Game"}
         </span>
-        <h1 className="bg-gradient-to-br from-white to-gray-400 bg-clip-text font-semibold text-transparent  text-5xl lg:text-7xl xl:text-8xl text-balance leading-relaxed lg:leading-tight  ">
+        <h1 className="bg-gradient-to-br from-white to-gray-400 bg-clip-text font-semibold text-transparent  text-5xl lg:text-7xl xl:text-8xl text-balance leading-tight lg:leading-tight  ">
           {"Ready to play with me?"}
         </h1>
         <p className="max-w-sm text-xl xl:text-2xl text-balance leading-loose lg:leading-relaxed xl:leading-relaxed ">
